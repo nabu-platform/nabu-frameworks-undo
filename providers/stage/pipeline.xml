@@ -1,0 +1,8 @@
+<structure interface="be.nabu.eai.module.services.vm.api.ServiceExecutor.execute" name="pipeline">
+    <structure name="input">
+        <field minOccurs="0" name="timeout" type="be.nabu.libs.types.base.Duration"/>
+    </structure>
+    <structure name="output"/>
+    <field name="serviceInput" type="java.lang.String"/>
+    <structure collectionName="undoActions" definition="nabu.frameworks.undo.crud.undoAction.types.output" enricher="nabu.frameworks.undo.crud.undoAction.services.list" name="created" persister="nabu.frameworks.undo.crud.undoAction.batch.updateAll"/>
+</structure>

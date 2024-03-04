@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<node artifactManager="be.nabu.eai.module.services.crud.CRUDArtifactManager" created="2024-03-04T08:30:40.377+01:00" lastModified="2024-03-04T08:35:48.099+01:00" leaf="false" version="5">
+    <environmentId>apollo</environmentId>
+    <hidden>false</hidden>
+    <locked>false</locked>
+    <properties/>
+    <references>nabu.frameworks.undo.database.types.undoAction</references>
+    <references>nabu.services.crud.provider.basic.provider</references>
+</node>

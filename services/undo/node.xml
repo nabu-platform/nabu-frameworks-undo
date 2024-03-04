@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<node artifactManager="be.nabu.eai.module.services.vm.VMServiceManager" created="2024-03-04T08:34:22.851+01:00" lastModified="2024-03-04T08:49:33.336+01:00" leaf="true" version="21">
+    <environmentId>apollo</environmentId>
+    <hidden>false</hidden>
+    <locked>false</locked>
+    <properties/>
+    <references>nabu.utils.Runtime.getCurrentToken</references>
+    <references>nabu.utils.reflection.Service.invoke</references>
+    <references>java.util.Date</references>
+    <references>nabu.utils.Date.now</references>
+    <references>nabu.utils.String.toStream</references>
+    <references>java.util.UUID</references>
+    <references>nabu.frameworks.undo.crud.undoAction.types.output</references>
+    <references>be.nabu.libs.authentication.api.Token</references>
+    <references>nabu.services.jdbc.Services.update</references>
+    <references>nabu.utils.Lock.lock</references>
+    <references>nabu.utils.Runtime.getCorrelationId</references>
+    <references>java.lang.Boolean</references>
+    <references>java.lang.Object</references>
+    <references>nabu.frameworks.undo.crud.undoAction.services.get</references>
+    <references>nabu.data.json.Services.unmarshal</references>
+</node>

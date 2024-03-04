@@ -1,0 +1,11 @@
+<structure collectionName="undoActions" name="undoAction">
+    <field name="id" pattern="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|[0-9a-fA-F]{32}" primaryKey="true" type="java.util.UUID"/>
+    <field name="expires" timezone="UTC" type="java.util.Date"/>
+    <field name="serviceId" type="java.lang.String"/>
+    <field minOccurs="0" name="serviceInput" type="java.lang.String"/>
+    <field minOccurs="0" name="serviceOutput" type="java.lang.String"/>
+    <field comment="The user who can run it (if anyone)" minOccurs="0" name="userId" pattern="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|[0-9a-fA-F]{32}" type="java.util.UUID"/>
+    <field comment="The correlation id at time of creation" name="correlationId" type="java.lang.String"/>
+    <field comment="When it was undone (if at all)" minOccurs="0" name="undone" timezone="UTC" type="java.util.Date"/>
+    <field comment="The correlation at time of undoing" minOccurs="0" name="undoCorrelationId" type="java.lang.String"/>
+</structure>

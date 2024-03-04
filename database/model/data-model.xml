@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataModel>
+    <entries>
+        <synchronize>true</synchronize>
+        <type>nabu.frameworks.undo.database.types.undoAction</type>
+        <x>448</x>
+        <y>160</y>
+    </entries>
+</dataModel>
